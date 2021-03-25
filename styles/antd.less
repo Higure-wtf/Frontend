@@ -1,0 +1,284 @@
+@import "~antd/dist/antd.less";
+
+html {
+  --antd-wave-shadow-color: none;
+}
+
+.authModal {
+  .ant-modal-body {
+    display: none;
+  }
+}
+
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover {
+  border-color: rgb(165, 165, 165);
+}
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(255, 255, 255, 0.85);
+  background: #443453;
+  border-bottom: 1px solid #303030;
+  border-radius: 2px 2px 0 0;
+}
+.embedEditor {
+  width: 900px !important;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom-color: #241b2b;
+}
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+  color: #177ddc;
+  background: #241b2b;
+}
+.ant-switch-checked:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1); 
+}
+
+.ant-switch-checked {
+  background-color: rgb(68, 52, 83);
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: rgb(68, 52, 83);
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  color: #bebebe;
+  border-color: #bebebe;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  background-color: rgb(37, 37, 37);
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #bebebe;
+}
+
+.ant-tabs-tab:hover {
+  color: #a1a1a1;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  color: #bebebe;
+  border-color: #bebebe;
+}
+
+.ant-tabs-tab-btn:focus, .ant-tabs-tab-remove:focus, .ant-tabs-tab-btn:active, .ant-tabs-tab-remove:active {
+  color: #a1a1a1;
+}
+
+.ant-input-affix-wrapper:hover {
+  border-color: #bebebe;
+}
+
+.ant-spin-text {
+  margin-top: 10px;
+  color: rgb(216, 216, 216);
+}
+
+.ant-list-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link, .ant-pagination-next:focus .ant-pagination-item-link, .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+  color: #fff;
+  background-color:#444444;
+  border-color: #444444;
+}
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.ant-pagination-item-container {
+  display: none;
+}
+
+.ant-pagination-jump-prev, .ant-pagination-jump-next {
+  display: none;
+}
+
+.ant-pagination-item-active a {
+  color: #fff;
+}
+
+.ant-pagination-item-active {
+  background-color:#444444;
+  border-color:#444444;;
+}
+
+.ant-pagination-item-active:focus, .ant-pagination-item-active:hover {
+  border: none;
+  color: #fff;
+  background-color: #3a3a3a;
+}
+
+.ant-pagination-item:focus a, .ant-pagination-item:hover a {
+  border: none;
+  color: #fff;
+  background-color: #3a3a3a;
+}
+
+.ant-pagination-item:focus, .ant-pagination-item:hover {
+  background-color: #3a3a3a;
+  border: none;
+}
+.ant-card-bordered {
+  border: 1px solid rgb(255, 255, 255);
+}
+.ant-btn {
+  border-color: #ffffff;
+}
+.ant-input-affix-wrapper {
+  border: 1px solid #ffffff;
+}
+.ant-popover-inner {
+  background-color: rgb(68, 52, 83);
+  background-clip: padding-box;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.45) \9;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+  background-color: #7600f9;
+}
+.ant-select-dropdown {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 1050;
+  box-sizing: border-box;
+  padding: 4px 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-variant: initial;
+  background-color: #362d40;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+}
+.ant-modal-content {
+  position: relative;
+  background-color: #362d40;
+  background-clip: padding-box;
+  border: 0px;
+  border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.48) 0px 3px 6px -4px, rgba(0, 0, 0, 0.32) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 9px 28px 8px;
+  pointer-events: auto;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  color: rgba(255, 255, 255, 0.65);
+  background: #362d40;
+}
+.ant-modal .ant-table {
+  background-color: #362d40;
+}
+.ant-modal .ant-table thead > tr > th {
+  background-color: rgb(68, 52, 83);
+  border-bottom: 1px solid #3a3a3a;
+}
+.ant-modal .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: rgb(68, 52, 83);
+}
+.ant-layout-sider {
+  position: relative;
+  /* fix firefox can't set width smaller than content on flex item */
+  min-width: 0;
+  background: #362d40;
+  transition: all 0.2s;
+}
+.ant-table {
+  background-color: #362d40;
+}
+.ant-table thead > tr > th {
+  background-color: rgb(68, 52, 83);
+  border-bottom: 1px solid #3a3a3a;
+}
+.ant-drawer-content {
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  background-color: #362d40;
+  background-clip: padding-box;
+  border: 0;
+}
+.ant-dropdown-menu {
+  position: relative;
+  margin: 0px;
+  padding: 4px 0px;
+  text-align: left;
+  list-style-type: none;
+  background-color: #362d40;
+  background-clip: padding-box;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.48) 0px 3px 6px -4px, rgba(0, 0, 0, 0.32) 0px 6px 16px 0px, rgba(0, 0, 0, 0.2) 0px 9px 28px 8px;
+}
+.ant-drawer-header {
+  position: relative;
+  padding: 16px 24px;
+  color: rgba(255, 255, 255, 0.85);
+  background: #362d40;
+  border-bottom: 1px solid rgb(48, 48, 48);
+  border-radius: 2px 2px 0px 0px;
+}
+.ant-menu-submenu-popup > .ant-menu {
+  background-color: #362d40;
+}
+.ant-btn-primary:focus {
+  background-color: rgb(68, 52, 83);
+}
+.ant-card {
+  background: rgb(68, 52, 83);
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: rgb(68, 52, 83);
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: rgb(68, 52, 83);
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: rgb(68, 52, 83);
+}
+.ant-table-thead th.ant-table-column-has-sorters:hover {
+  background: #362d40;
+}
+.ant-table-thead th.ant-table-column-has-sorters:hover .ant-table-filter-trigger-container {
+  background: #362d40;
+}
+.ant-table-thead th.ant-table-column-sort {
+  background: #362d40;
+}
+.ant-notification-notice {
+  position: relative;
+  width: 384px;
+  max-width: calc(100vw - 24px * 2);
+  margin-bottom: 16px;
+  margin-left: auto;
+  overflow: hidden;
+  word-wrap: break-word;
+  background:  #362d40;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+}
+.ant-modal .ant-table tbody > tr.ant-table-row:hover > td {
+  background: rgb(68, 52, 83);
+}
